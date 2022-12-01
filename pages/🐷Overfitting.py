@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import linear_model
-from PIL import ImageTk, Image
+from PIL import Image
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.metrics import mean_squared_error
 
