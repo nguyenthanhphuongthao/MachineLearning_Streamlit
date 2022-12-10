@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import streamlit as st
-from sklearn import datasets, linear_model
+from sklearn import linear_model
 from sklearn.metrics import mean_squared_error
-from PIL import ImageTk, Image
+from PIL import Image
 
 st.set_page_config(
     page_title="Linear regression",
